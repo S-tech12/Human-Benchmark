@@ -1,0 +1,119 @@
+@media screen and (max-width:1186px){
+    .MainSection h2{
+        font-size: 25px;
+    }
+    .MainSection h1{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:932px){
+    .MainSection h2{
+        font-size: 20px;
+    }
+    .MainSection h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:754px){
+    .MainSection h2{
+        font-size: 15px;
+    }
+    .MainSection h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:574px){
+    .MainSection h2{
+        font-size: 10px;
+    }
+    .MainSection h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:394px){
+    .MainSection h2{
+        font-size: 5px;
+    }
+    .MainSection h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:282px) {
+    .MainSection .btn {
+        font-size: 14px;
+        height: 2rem;
+        width: 5rem;
+    }
+}
+
+
+
+/* from now this is the result text responsiveness */
+
+@media screen and (max-width:1230px) {
+    .result{
+        font-size: 60px;
+    }
+    .RetryText{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:902px) {
+    .result{
+        font-size: 40px;
+    }
+    .RetryText{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:612px) {
+    .result{
+        font-size: 23px;
+    }
+    .RetryText{
+        font-size: 12px;
+    }
+    .retryButton {
+        font-size: 12px;
+        height: 2rem;
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width:358px) {
+    .result{
+        font-size: 15px;
+        text-shadow: none;
+    }
+    .RetryText{
+        font-size: 12px;
+    }
+    .retryButton {
+        font-size: 10px;
+        height: 2rem;
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width:242px) {
+    .result{
+        font-size: 10px;
+        text-shadow: none;
+    }
+    .RetryText{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .SecondContainer{
+        height: 15rem;
+    }
+}

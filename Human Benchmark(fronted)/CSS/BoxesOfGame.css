@@ -1,0 +1,27 @@
+.container{
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.5rem;
+}
+
+.card{
+    box-shadow: 8px 8px 12px black;
+    text-align: center;
+    transition: transform 0.5s ease-in-out,box-shadow 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 12px #FF6500;
+    transform: translateY(-5%);
+}
+
+.ElementImage{
+    color: #A1D6CB;
+}
+
+.card:hover .ElementImage{
+    color: #FF6500;
+    transition: color 0.5s ease-in-out;
+}

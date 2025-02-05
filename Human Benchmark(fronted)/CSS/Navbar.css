@@ -1,0 +1,21 @@
+.container-fluid,ul{
+    gap: 2rem;
+}
+.nav-link{
+    opacity: 0.8;
+    font-weight: 700;
+    padding: 0.5rem;
+    transition: opacity 0.5s ease-in-out,background-color 0.5s ease-in-out;
+
+}
+
+.nav-link:hover{
+    opacity: 1;
+    background-color: grey;
+}
+
+@media (max-width:992px){
+    .navbar-brand{
+        background-color: grey;
+    }
+}

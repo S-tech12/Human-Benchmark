@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Aim Trainer Test</title>
+    <link rel="stylesheet" href="../../CSS/base.css">
+    <link rel="stylesheet" href="../../CSS/Navbar.css">
+    <link rel="stylesheet" href="ATCard.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../images.jpg" alt="" width="30" height="30">Human Benchmark</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">SignUp</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="MainSection">
+        <svg width="128" height="100" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style="padding: 20px;" id="ATCardImage">
+                    <title>Aim Trainer</title>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M64 118C93.8234 118 118 93.8234 118 64C118 34.1766 93.8234 10 64 10C34.1766 10 10 34.1766 10 64C10 93.8234 34.1766 118 64 118ZM64 128C99.3462 128 128 99.3462 128 64C128 28.6538 99.3462 0 64 0C28.6538 0 0 28.6538 0 64C0 99.3462 28.6538 128 64 128Z"
+                        fill="currentcolor"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M64 97C82.2254 97 97 82.2254 97 64C97 45.7746 82.2254 31 64 31C45.7746 31 31 45.7746 31 64C31 82.2254 45.7746 97 64 97ZM64 107C87.7482 107 107 87.7482 107 64C107 40.2518 87.7482 21 64 21C40.2518 21 21 40.2518 21 64C21 87.7482 40.2518 107 64 107Z"
+                        fill="currentcolor"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M64 76C70.6274 76 76 70.6274 76 64C76 57.3726 70.6274 52 64 52C57.3726 52 52 57.3726 52 64C52 70.6274 57.3726 76 64 76ZM64 86C76.1503 86 86 76.1503 86 64C86 51.8497 76.1503 42 64 42C51.8497 42 42 51.8497 42 64C42 76.1503 51.8497 86 64 86Z"
+                        fill="currentcolor" class="ElementImage"></path>
+                </svg>
+        <h1>Aim Trainer Test</h1>
+        <h2>Hit 30 targets as you can!!</h2><br><br>
+        <button type="button" class="btn btn-secondary">Start</button>
+        <br><br><br>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Aim Trainer</h5>
+                        <p class="card-text">Click the targets as quickly and accurately as you can.</p><br>
+                        <p class="card-text">This tests reflexes and hand-eye coordination.</p><br>
+                        <p class="card-text">Once you've clicked 30 targets, your score and average time per target will be displayed.</p><br>
+                        <p class="card-text">This test is best taken with a mouse or tablet screen. Trackpads are difficult to score well with.</p><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Statistics</h5>
+                        <img src="ATTest.png" class="img-thumbnail" alt="chartForAimTrainer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

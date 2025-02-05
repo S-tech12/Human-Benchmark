@@ -1,0 +1,45 @@
+.redContainer{
+    background-color: #FF0000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.containerElements{
+    font-size: 5vh;
+}
+
+@media (min-width:500px){
+    .containerElements{
+        font-size: 80px;
+    }
+}
+
+.greenContainer{
+    background-color: #118B50;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.blueContainer{
+    background-color: #5DB996;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+    width: 100%;
+    cursor: pointer;
+}

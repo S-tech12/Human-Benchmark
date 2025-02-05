@@ -1,0 +1,230 @@
+.MainSection{
+    color: #FDE7BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(43, 135, 209);
+    cursor: pointer;
+}
+
+.MainSection h1,.MainSection h2{
+    opacity: 0;
+    animation: slideUp 2s ease-out forwards;
+}
+
+.MainSection #CTCardImage{
+    opacity: 0;
+    animation: slideUp 2s ease-out forwards;
+    animation-delay: 0.1s;
+    font-size: 2vh;
+    color: white;
+}
+.MainSection h1{
+    font-weight: bold;
+    text-shadow: 15px 15px 20px #000000;
+    font-size: 5vh;
+    animation-delay: 0.2s;
+}
+
+.MainSection h2{
+    font-size: 3vh;
+    animation-delay: 0.4s;
+}
+
+.MainSection .btn{
+    opacity: 0;
+    background-color: #FDE7BB;
+    color: rgb(43, 135, 209);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 4px 4px 8px black;
+    /* text-shadow: 2px 2px 2px black; */
+    animation: slideUp 2s ease-out forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes slideUp{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (min-width:500px) {
+    .MainSection h1{
+        font-size: 80px;
+    }
+    .MainSection h2{
+        font-size: 30px;
+    }
+    .MainSection #CTCardImage{
+        font-size: 40px;
+    }
+}
+.row .card{
+    box-shadow: 4px 4px 8px black;
+}
+.row p{
+    font-size: larger;
+}
+
+.row a{
+    font-size: larger;
+    text-decoration: none;
+    color: #37AFE1;
+}
+
+.row img{
+    padding: 1.25rem;
+}
+
+
+
+
+/* this is for the dynamic elements */
+
+.SecondContainer{
+    color: #FDE7BB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(43, 135, 209);
+    cursor: pointer;
+    position: relative;
+}
+
+.para{
+    font-weight: bold;
+    text-shadow: 15px 15px 20px #000000;
+    font-size: 80px;
+}
+
+.InfoDiv{
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    display: flex;
+    gap: 2rem;
+}
+
+.Gamecontainer{
+    height: 80%;
+    width: 60%;
+    gap: 10px;
+    padding: 20px;
+}
+
+.LevelBox{
+    display: flex;
+    gap: 2px;
+    color: white;
+    font-size: x-large;
+}
+
+.LevelText{
+    opacity: 0.5;
+}
+
+.LevelNumber{
+    opacity: 1;
+}
+
+
+/* this is the livesBox styles */
+.LivesBox{
+    display: flex;
+    font-size: x-large;
+    color: whitesmoke;
+    gap: 5px;
+}
+
+.LivesText{
+    opacity: 0.5;
+}
+
+.bi{
+    color: white;
+    font-size: 35px;
+    margin-top: -5px;
+}
+
+.BoxesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    padding: 20px;
+}
+
+.row{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: flex;
+}
+
+.box{
+    font-size: larger;
+    height: 15vh;
+    width: 15vh;
+    margin: 5px;
+    border-radius: 9px;
+    background-color: rgba(43, 135, 209,0.8);
+    box-shadow: 11px 11px 8px black;
+}
+
+@media (max-width:500px){
+    .InfoDiv{
+        gap:1rem;
+    }
+    .LevelBox{
+        font-size: medium;
+        gap: 1rem;
+    }
+    .LivesBox{
+        font-size: medium;
+        gap: 1rem;
+    }
+    .bi{
+        font-size: medium;
+        margin-top: 2px;
+    }
+}
+
+@media (max-width:300px){
+    .InfoDiv{
+        gap:0.5rem;
+    }
+    .LevelBox{
+        font-size: small;
+        gap: 0.5rem;
+    }
+    .LivesBox{
+        font-size: small;
+        gap: 0.5rem;
+    }
+    .bi{
+        font-size: small;
+        margin-top: 1px;
+    }
+}
