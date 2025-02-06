@@ -1,9 +1,4 @@
 {
     "version": 2,
-    "routes": [
-        {
-            "src": "/",
-            "dest": "/HTML/index.html"
-        }
-    ]
+    "public": "HTML"
 }
