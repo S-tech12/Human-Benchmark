@@ -1,0 +1,50 @@
+@media screen and (max-width:1194px){
+    #Homepage h1{
+        font-size: 70px;
+    }
+    #Homepage h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:964px) {
+    #Homepage h1{
+        font-size: 60px;
+    }
+    #Homepage h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:760px) {
+    #Homepage h1{
+        font-size: 50px;
+    }
+    #Homepage h2{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:498px) {
+    #Homepage h1{
+        font-size: 30px;
+    }
+    #Homepage h2{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:294px) {
+    #Homepage h1{
+        font-size: 20px;
+    }
+    #Homepage h2{
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #Homepage{
+        height: 20rem;
+    }
+}

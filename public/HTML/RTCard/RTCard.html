@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Reaction Time Test</title>
+    <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet" href="../CSS/Navbar.css">
+    <link rel="stylesheet" href="RTCard.css">
+    <link rel="stylesheet" href="RTCardResponsive.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../../images.jpg" alt="" width="30" height="30">Human Benchmark</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">SignUp</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="MainContainer">
+        <div class="MainSection">
+            <svg width="100" height="128" viewBox="0 0 100 128" fill="currentcolor" xmlns="http://www.w3.org/2000/svg"
+                class="hero-icon pulse-faint">
+                <path
+                    d="M0.719527 59.616L32.8399 2.79148C33.8149 1.06655 35.6429 0 37.6243 0H94.4947C98.9119 0 101.524 4.94729 99.0334 8.59532L71.201 49.357C68.7101 53.0051 71.3225 57.9524 75.7397 57.9524H82.2118C87.3625 57.9524 89.6835 64.4017 85.7139 67.6841L14.34 126.703C9.85287 130.413 3.43339 125.513 5.82845 120.206L25.9709 75.5735C27.6125 71.936 24.9522 67.8166 20.9615 67.8166H5.50391C1.29539 67.8166 -1.35146 63.2798 0.719527 59.616Z"
+                    fill="currentcolor" id="RTCardImage"></path>
+            </svg>
+            <h1>Reaction Time Test</h1>
+            <h2>When the red box turns green,click as quickly as you can.Click anywhere to start.</h2><br><br>
+            <button type="button" class="btn btn-secondary" id="StartButton">Start</button>
+            <br><br><br>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">About the test</h5>
+                        <p class="card-text">This is a simple tool to measure your reaction time</p><br>
+                        <p class="card-text">The average(median) reaction time is 273 milliseconds according to <a
+                                href="">the data</a> collected so far.</p><br>
+                        <p class="card-text">In addition to measuring your reaction time, this test is affected by the
+                            latency of your computer and monitor. Using a faster computer and low latency, high frame
+                            rate monitor will improve your score.</p><br>
+                        <p class="card-text">Scores in this test are faster than the <a href="">aim trainer</a> test
+                            because you can react instantly without moving the cursor.</p><br>
+                        <p class="card-text">This is discussed in a further detail on the <a href="">statistics</a>
+                            page. While an average human reaction time may fall between 200-250 ms, your computer could
+                            be adding 10-15 ms on the top. Some modern TVs add as much as 150 ms.</p><br>
+                        <p class="card-text">Other tools <a href="">What's my GPU?</a></p><br>
+                        <p class="card-text">If you want, you can keep track of your scores and see your full history of
+                            reaction times. Just perform at least 5 clicks and then save.</p><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Statistics</h5>
+                        <img src="chartForRT.png" class="img-thumbnail" alt="chartForRT">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <script src="Game.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

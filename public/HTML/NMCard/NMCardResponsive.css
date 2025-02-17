@@ -1,0 +1,136 @@
+@media screen and (max-width:1021px) {
+    .MainSection h1{
+        font-size: 60px;
+    }
+    .MainSection h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:697px) {
+    .MainSection h1{
+        font-size: 45px;
+    }
+    .MainSection h2{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:521px) {
+    .MainSection h1{
+        font-size: 30px;
+    }
+    .MainSection h2{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:504px) {
+    .EnterNumber{
+        width:23rem;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:392px) {
+    .EnterNumber{
+        width:14rem;
+        height: 2rem;
+    }
+    .SecondContainer #SubmitButton{
+        font-size: 13px;
+        height: 2rem;
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width:226px) {
+    .EnterNumber{
+        width:10rem;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .MainSection h1{
+        font-size: 23px;
+    }
+    .MainSection h2{
+        font-size: 5px;
+    }
+    .MainSection .btn{
+        font-size: 15px;
+        height: 2rem;
+        width: 5rem;
+    }
+}
+
+
+/* this is for the dynamic page */
+@media screen and (max-width:614px) {
+    .Question{
+        font-size: 30px;
+    }
+    .command{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:398px) {
+    .Question{
+        font-size: 15px;
+    }
+    .command{
+        font-size: 10px;
+    }
+}
+
+
+/* this is the result page */
+
+@media screen and (max-width:966px) {
+    .warn{
+        font-size: 60px;
+    }
+    .LevelText {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:588px) {
+    .warn{
+        font-size: 40px;
+        text-shadow: none;
+    }
+    .LevelText {
+        font-size: 20px;
+    }
+    .retext{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:402px) {
+    .warn{
+        font-size: 25px;
+        text-shadow: none;
+    }
+    .LevelText {
+        font-size: 15px;
+    }
+    .retext{
+        font-size: 10px;
+    }
+    .retryButton{
+        font-size: 13px;
+        height: 2rem;
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width:296px) {
+    .LevelText{
+        font-size: 10px;
+    }
+    .retext{
+        font-size: 10px;
+    }
+}

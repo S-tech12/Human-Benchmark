@@ -1,0 +1,97 @@
+@media screen and (max-width:1264px) {
+    .MainSection h2{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .MainSection h1{
+        font-size: 55px;
+    }
+    .MainSection h2{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:692px) {
+    .MainSection h1{
+        font-size: 35px;
+    }
+    .MainSection h2{
+        font-size: 10px;
+    }
+    .MainSection .btn{
+        font-size: 13px;
+        height: 2rem;
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width:536px) {
+    .MainSection h1{
+        font-size: 35px;
+    }
+    .MainSection h2{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:352px){
+    .MainSection h1{
+        font-size: 23px;
+    }
+}
+
+
+/* this is for the second page */
+@media screen and (max-width:600px) {
+    .ScoreText{
+        font-size: 20px;
+    }
+
+    .ScoreBox {
+        width: 45px;
+        height: 42px;
+        font-size: x-large;
+    }
+    
+    .LifeText{
+        font-size: 20px;
+    }
+    
+    .LifeBox{
+        width: 45px;
+        height: 42px;
+        font-size: x-large;
+    }
+}
+
+/* this is for the result page */
+@media screen and (max-width:856px) {
+    .result{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:552px) {
+    .result{
+        font-size: 30px;
+    }
+    .RetryButton{
+        height: 2rem;
+        width: 4rem;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .result{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .result{
+        font-size: 15px;
+    }
+}

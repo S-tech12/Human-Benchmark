@@ -1,0 +1,221 @@
+.MainSection{
+    color: #A28B55;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+    width: 100%;
+    padding: 10px;
+    background-color: #86D293;
+    cursor: pointer;
+}
+
+.MainSection h1,.MainSection h2{
+    opacity: 0;
+    animation: slideUp 2s ease-out forwards;
+}
+
+.MainSection #NMCardImage{
+    opacity: 0;
+    animation: slideUp 2s ease-out forwards;
+    animation-delay: 0.1s;
+    font-size: 2vh;
+    color: #A28B55;
+}
+.MainSection h1{
+    font-weight: bold;
+    text-shadow: 4px 4px 8px black;
+    animation-delay: 0.2s;
+}
+
+.MainSection h2{
+    animation-delay: 0.4s;
+}
+
+.MainSection .btn{
+    opacity: 0;
+    background-color: #A28B55;
+    color: #86D293;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 4px 4px 8px black;
+    text-shadow: 2px 2px 4px black;
+    animation: slideUp 2s ease-out forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes slideUp{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.row .card{
+    box-shadow: 4px 4px 8px black;
+}
+
+.row p{
+    font-size: larger;
+}
+
+.row a{
+    font-size: larger;
+    text-decoration: none;
+    color: #37AFE1;
+}
+
+.row img{
+    padding: 1.25rem;
+}
+
+
+
+
+/* from this we create the classlist of the dynamic Element */
+.SecondContainer{
+    color: #A28B55;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+    width: 100%;
+    padding: 10px;
+    background-color: #86D293;
+}
+
+.NumberElement{
+    color: #A28B55;
+    font-size: 80px;
+}
+
+.Question{
+    font-size: 50px;
+    color:#A28B55;
+    font-weight: 700;
+}
+
+.command{
+    font-size: 30px;
+    color: #A28B55;
+    font-weight: 500;
+
+}
+
+.EnterNumber{
+    height: 4rem;
+    width: 32rem;
+    background-color: #F0BB78;
+    color: #131010;
+    border-radius: 1rem;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    box-shadow: 4px 4px 8px black;
+}
+
+.SubmitButton{
+    background-color: #A28B55;
+    color: #86D293;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 4px 4px 8px black;
+    text-shadow: 2px 2px 4px black;
+}
+
+.ThirdSection{
+    color: #A28B55;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33rem;
+    width: 100%;
+    padding: 10px;
+    background-color: #86D293;
+}
+
+.warn{
+    color:#A28B55;
+    font-size: 80px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.LevelText{
+    color:#A28B55;
+    font-size: 50px;
+}
+
+.retext{
+    color: #A28B55;
+    font-size: x-large;
+}
+
+.retryButton{
+    background-color: #A28B55;
+    color: #86D293;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 4px 4px 8px black;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* @media (max-width: 500px) {
+    .NumberElement {
+        font-size: 4rem;
+    }
+
+    .Question {
+        font-size: 2rem;
+    }
+
+    .command {
+        font-size: 1.5rem;
+    }
+
+    .EnterNumber {
+        font-size: 2rem;
+        width:50%;
+    }
+
+    .warn {
+        font-size: 3.5rem;
+    }
+
+    .LevelText {
+        font-size: 2.5rem;
+    }
+
+    .retext {
+        font-size: 1.25rem;
+    }
+
+    SubmitButton{
+        height: 1.5rem;
+        width:3.5rem;
+    }
+} */
